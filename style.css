@@ -60,7 +60,6 @@ p img {
     box-sizing: border-box;
     width: 100%;
     min-height: 450px;
-    padding: 20px;
 
 }
 
@@ -84,7 +83,7 @@ p img {
 }
 
 .card {
-     box-sizing: border-box;
+    box-sizing: border-box;
     height: 300px;
     width: 29%;
     margin: 2% 2%;
@@ -112,6 +111,7 @@ p img {
 .container {
     box-sizing: border-box;
     padding: 12px 10%;
+    min-height: inherit;
 }
 
 .navbar-brand {
