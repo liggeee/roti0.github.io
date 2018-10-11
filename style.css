@@ -78,7 +78,7 @@ p img {
     width: 80%;
     color: #fff;
     position:;
-    padding: 0px 10%;
+    padding: 20px 10%;
     position: absolute;
     z-index: 1;
 }
@@ -100,6 +100,7 @@ p img {
     font-family: 'gotham bold';
     padding: 20px;
     width: 100%;
+    height: auto;
 }
 
 .container {
@@ -110,16 +111,13 @@ p img {
 
 .navbar-brand {
     box-sizing: border-box;
-    float:left ;
     margin: 0px;
     position: absolute;
     display: inline-block;
-
 }
 
 .navbar-brand img {
-    width: 150px;
-    position: inherit;
+    width: 100px;
 }
 
 .navbar-panel ul {
