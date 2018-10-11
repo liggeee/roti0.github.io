@@ -78,8 +78,9 @@ p img {
     width: 80%;
     color: #fff;
     position:;
-    background-color: #475F77;
     padding: 0px 10%;
+    position: absolute;
+    z-index: 1;
 }
 
 .card {
@@ -108,8 +109,17 @@ p img {
 }
 
 .navbar-brand {
-    float: left;
+    box-sizing: border-box;
+    float:left ;
     margin: 0px;
+    position: absolute;
+    display: inline-block;
+
+}
+
+.navbar-brand img {
+    width: 150px;
+    position: inherit;
 }
 
 .navbar-panel ul {
