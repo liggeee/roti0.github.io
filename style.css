@@ -84,14 +84,20 @@ p img {
 }
 
 .card {
-    box-sizing: border-box;
-    min-height: 500px;
-    width: 40%;
+     box-sizing: border-box;
+    height: 300px;
+    width: 29%;
+    margin: 2% 2%;
     padding: 12px;
     float: left;
-    border: solid 7px #475F77;
+    box-shadow: 1px 1px 10px #475F77;
     border-radius: 50px;
+}
+
+.card:hover {
+    border: solid 7px #475F77;
     box-shadow: 2px 2px 2px #475F77;
+    cursor: pointer;
 }
 
 .container-fluid {
@@ -106,7 +112,6 @@ p img {
 .container {
     box-sizing: border-box;
     padding: 12px 10%;
-
 }
 
 .navbar-brand {
@@ -118,6 +123,7 @@ p img {
 
 .navbar-brand img {
     width: 100px;
+
 }
 
 .navbar-panel ul {
