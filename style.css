@@ -64,7 +64,6 @@ p img {
 .panel {
     width: 100%;
     min-height: 450px;
-    background-color: aquamarine;
 }
 
 .title {
@@ -89,7 +88,6 @@ p img {
 .card {
     box-sizing: border-box;
     height: 300px;
-    float: left;
     box-shadow: 1px 1px 10px #475F77;
     border-radius: 50px;
     position: relative;
@@ -113,6 +111,7 @@ p img {
     padding: 12px 10%;
     min-height: inherit;
     box-sizing: border-box;
+    position: relative;
 }
 
 .navbar-brand {
@@ -130,7 +129,7 @@ p img {
 
 .row {
     box-sizing: border-box;
-    width: 100%;
+    width: auto;
     line-height: normal;
 }
 
@@ -159,14 +158,14 @@ p img {
 
 .grid-3-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 30% 30% 30%;
     padding: 12px;
-    grid-gap: 2% 2%;
+    grid-gap: 2% 5%;
 }.grid-2-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 47% 47%;
     padding: 12px;
-    grid-gap: 2% 2%;
+    grid-gap: 2% 6%;
 }
 
 .grid-item {
@@ -175,6 +174,43 @@ p img {
 
 .center {
     text-align: center;
+}
+
+.circle-frame {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 1px #000;
+    position: relative;
+    border-radius: 50px;
+    padding: 12px;
+    border: 5px solid #D74B4B;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 5%;
+}
+.col:first-child {
+    margin-left: 0;
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 65%; }
+.span_1_of_3 { width: 30%; }
+.span_1_of_2 {width: 47.5%;}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3, .span_1_of_2 { width: 100%; }
+}
+
+.circle-frame img {
+    width: 60px;
 }
 
 .title-panel {
