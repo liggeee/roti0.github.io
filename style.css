@@ -59,11 +59,14 @@ p img {
 .center-top {
     box-sizing: border-box;
     padding-top: 150px;
+    vertical-align: middle;
 }
 
 .panel {
     width: 100%;
-    min-height: 450px;
+    position: relative;
+    min-height: 300px;
+
 }
 
 .title {
@@ -90,13 +93,17 @@ p img {
     height: 300px;
     box-shadow: 1px 1px 10px #475F77;
     border-radius: 50px;
-    position: relative;
+    padding: 10px 12px;
+    overflow: hidden;
+
 }
 
-.card:hover {
+
+#divisi .card:hover {
     border: solid 7px #475F77;
     box-shadow: 2px 2px 2px #475F77;
     cursor: pointer;
+
 }
 
 .container-fluid {
@@ -111,7 +118,8 @@ p img {
     padding: 12px 10%;
     min-height: inherit;
     box-sizing: border-box;
-    position: relative;
+    position: inherit;
+    overflow: hidden;
 }
 
 .navbar-brand {
@@ -156,26 +164,13 @@ p img {
     border: 1px #D74B4B;
 }
 
-.grid-3-container {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    padding: 12px;
-    grid-gap: 2% 5%;
-}.grid-2-container {
-    display: grid;
-    grid-template-columns: 47% 47%;
-    padding: 12px;
-    grid-gap: 2% 6%;
-}
-
-.grid-item {
-
-}
-
 .center {
     text-align: center;
 }
 
+.isi {
+    padding: 10px 12px;
+}
 .circle-frame {
     box-sizing: border-box;
     width: 100px;
@@ -185,13 +180,18 @@ p img {
     border-radius: 50px;
     padding: 12px;
     border: 5px solid #D74B4B;
+    margin: 0px auto;
+}
+
+.circle-frame img{
+    margin: auto auto;
 }
 
 /*  COLUMN SETUP  */
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 5%;
+	margin: 2.5% 0 2.5% 5%;
 }
 .col:first-child {
     margin-left: 0;
@@ -204,17 +204,20 @@ p img {
 .span_1_of_2 {width: 47.5%;}
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3, .span_1_of_2 { width: 100%; }
 }
 
 .circle-frame img {
     width: 60px;
+
 }
 
-.title-panel {
-    text-shadow: 1px 1px 1px #475F77;
+.normal {
+    text-shadow: none;
+    text-decoration: none;
+    list-style: none;
 }
 
 
@@ -274,3 +277,14 @@ p img {
     text-align: left;
     animation: 30s slider infinite;
 }
+
+#sejarah .card {
+    background-color: #fff;
+}
+
+#sejarah img {
+    box-sizing: border-box;
+    width: 70%;
+    margin: 15%;
+}
+
