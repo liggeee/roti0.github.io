@@ -5,7 +5,12 @@ html {
 
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0px;
 }
 
@@ -57,10 +62,9 @@ p img {
 }
 
 .panel {
-    box-sizing: border-box;
     width: 100%;
     min-height: 450px;
-
+    background-color: aquamarine;
 }
 
 .title {
@@ -76,7 +80,7 @@ p img {
     height: 75px;
     width: 80%;
     color: #fff;
-    position:;
+    position: ;
     padding: 20px 10%;
     position: absolute;
     z-index: 1;
@@ -85,12 +89,10 @@ p img {
 .card {
     box-sizing: border-box;
     height: 300px;
-    width: 29%;
-    margin: 2% 2%;
-    padding: 12px;
     float: left;
     box-shadow: 1px 1px 10px #475F77;
     border-radius: 50px;
+    position: relative;
 }
 
 .card:hover {
@@ -101,7 +103,6 @@ p img {
 
 .container-fluid {
     box-sizing: border-box;
-    display: inline-block;
     font-family: 'gotham bold';
     padding: 20px;
     width: 100%;
@@ -109,21 +110,28 @@ p img {
 }
 
 .container {
-    box-sizing: border-box;
     padding: 12px 10%;
     min-height: inherit;
+    box-sizing: border-box;
 }
 
 .navbar-brand {
     box-sizing: border-box;
     margin: 0px;
     position: absolute;
-    display: inline-block;
+    top: 20px;
+
 }
 
 .navbar-brand img {
     width: 100px;
 
+}
+
+.row {
+    box-sizing: border-box;
+    width: 100%;
+    line-height: normal;
 }
 
 .navbar-panel ul {
@@ -149,6 +157,22 @@ p img {
     border: 1px #D74B4B;
 }
 
+.grid-3-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 12px;
+    grid-gap: 2% 2%;
+}.grid-2-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 12px;
+    grid-gap: 2% 2%;
+}
+
+.grid-item {
+
+}
+
 .center {
     text-align: center;
 }
@@ -157,10 +181,6 @@ p img {
     text-shadow: 1px 1px 1px #475F77;
 }
 
-.row {
-    box-sizing: border-box;
-
-}
 
 @keyframes slider {
     0% {
@@ -200,20 +220,21 @@ p img {
     }
 
 }
-    #slider {
-        overflow: hidden;
-    }
 
-    #slider figure .jumbotron {
-        width: 20%;
-        float: left;
-    }
+#slider {
+    overflow: hidden;
+}
 
-    #slider figure {
-        position: relative;
-        width: 500%;
-        margin: 0;
-        left: 0;
-        text-align: left;
-        animation: 30s slider infinite ;
-    }
+#slider figure .jumbotron {
+    width: 20%;
+    float: left;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    animation: 30s slider infinite;
+}
