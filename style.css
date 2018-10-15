@@ -98,8 +98,12 @@ p img {
 
 }
 
+#kepengurusan .card {
+    border: 5px solid #D74B4B;
+    background-image: ;
+}
 
-#divisi .card:hover {
+#divisi .card:hover, #event .card:hover {
     border: solid 7px #475F77;
     box-shadow: 2px 2px 2px #475F77;
     cursor: pointer;
@@ -201,7 +205,8 @@ p img {
 .span_3_of_3 { width: 100%; }
 .span_2_of_3 { width: 65%; }
 .span_1_of_3 { width: 30%; }
-.span_1_of_2 {width: 47.5%;}
+.span_1_of_2 { width: 47.5%;}
+.span_1_of_1 {width: 100%;}
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 720px) {
@@ -287,4 +292,9 @@ p img {
     width: 70%;
     margin: 15%;
 }
+
+#event .card {
+    height: 230px;
+}
+#event .card
 
