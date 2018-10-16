@@ -98,15 +98,21 @@ p img {
 
 }
 
-#kepengurusan .card {
+ .red-card {
     border: 5px solid #D74B4B;
-    background-image: ;
+    background-color: #e0d1d1;
+}
+
+.blue-card {
+    border: 5px solid #475F77;
+    background-color: #e0dbe5;
 }
 
 #divisi .card:hover, #event .card:hover {
     border: solid 7px #475F77;
     box-shadow: 2px 2px 2px #475F77;
     cursor: pointer;
+    z-index: 1;
 
 }
 
@@ -137,6 +143,14 @@ p img {
 .navbar-brand img {
     width: 100px;
 
+}
+
+.blue{
+    background-color: #475F77;
+}
+
+.red {
+    background-color: #D74B4B;
 }
 
 .row {
