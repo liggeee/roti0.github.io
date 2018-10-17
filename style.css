@@ -229,11 +229,17 @@ p {
 .span_1_of_2 { width: 47.5%;}
 .span_1_of_1 {width: 100%;}
 
-/*  GO FULL WIDTH BELOW 480 PIXELS */
+/*  GO FULL WIDTH BELOW 720 PIXELS */
+@media only screen and (max-width: 720px) {
+	#event .card .span_1_of_2 { width: 47.5%; }
+}
+
 @media only screen and (max-width: 720px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3, .span_1_of_2 { width: 100%; }
 }
+
+
 
 .circle-frame img {
     width: 60px;
