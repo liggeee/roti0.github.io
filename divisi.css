@@ -142,19 +142,7 @@
             margin-top: 42px;
             position: absolute;
         }
-        #empat ul{
-            list-style: none;
-        }
-        #empat ul li div h2{
-            color: white;
-            display: inline;
 
-        }
-        #empat ul li div{
-            width: 1000px;
-            height: 100px;
-            color: red;
-        }
         #empat #twitter{
             margin-left: 100px;
             margin-top: 50px;
