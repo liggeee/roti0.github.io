@@ -1,0 +1,211 @@
+        body{
+            margin: 0;
+        }
+        #satu img{
+            padding: 10px;
+        }
+        #dua img{
+            margin-left: 300px;
+            padding: 15px;
+
+        }
+        #dua #tombol{
+            margin-left: 50px;
+            margin-top: 15px;
+            width: 45px;
+        }
+        #tiga hr{
+            padding-left: 5px;
+            margin-left: 10px;
+            width: 200px;
+        }
+        #menu li a{
+            text-decoration: none;
+            font-size: 20px;
+            font-family: gotham rounded bold;
+            color: white;
+            padding: 20px;
+        }
+        #satu {
+            background-color: #475F77;
+            height: auto;
+            width: 100%;
+        }
+        #dua {
+            background-color: white;
+            height: 800px;
+            width: 79%;
+            padding: 0;
+            margin: 0;
+            float: left;
+
+
+        }
+        #tiga {
+            background-color: white;
+            height: auto;
+            width: 20%;
+            padding: 0;
+            margin: 0;
+            float: left;
+            border-left: 2px solid black;
+            border-left-color: #475F77;
+
+        }
+        #tiga h1{
+            font-size: 30px;
+            font-family: gotham rounded bold;
+            padding: 10px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            text-align: left;
+            color: #475F77;
+        }
+        #tigaset{
+            background-color: white;
+            height: 800px;
+            width: 20%;
+            padding: 0;
+            margin: 0;
+            float: left;
+            border-left: 2px solid black;
+            border-left-color: #475F77;
+
+        }
+        #tigaset ul{
+            font-family: gotham rounded;
+            padding: 10px;
+            margin-left: 10px;
+            list-style: none;
+            padding-top: 0;
+            margin-top: 0;
+        }
+        #tigaset ul li a{
+            text-decoration: none;
+            font-size: 25px;
+            color: #475F77;
+        }
+        #tigaset ul li div{
+            padding: 5px;
+        }
+
+        #empat {
+            background-color: #475F77;
+            height: 280px;
+            width: 100%;
+            float: right;
+
+        }
+        #lima {
+            background-color: #344353;
+            height: auto;
+            width: 100%;
+            float: right;
+        }
+        #menu {
+            float: right;
+            padding: 10px;
+            margin: 0;
+            padding-top: 60px;
+            padding-right: 100px;
+        }
+        #menu li{
+            display: inline;
+
+        }
+        #dua h1{
+            font-size: 30px;
+            font-family: gotham rounded bold;
+            padding: 10px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            text-align: left;
+            color: #475F77;
+            padding-left: 70px;
+        }
+        #dua hr{
+            padding-left: 5px;
+            margin-left: 70px;
+            width: 300px;
+        }
+        #dua p{
+            padding-left: 70px;
+            font-size: 20px;
+            font-family: gotham rounded;
+        }
+        #dua a{
+            text-decoration: none;
+            font-size: 20px;
+            font-family: gotham rounded;
+            margin-top: 42px;
+            position: absolute;
+        }
+        #empat ul{
+            list-style: none;
+        }
+        #empat ul li div h2{
+            color: white;
+            display: inline;
+
+        }
+        #empat ul li div{
+            width: 1000px;
+            height: 100px;
+            color: red;
+        }
+        #empat #twitter{
+            margin-left: 100px;
+            margin-top: 50px;
+            width: 50px;
+            position: absolute;
+        }
+        #empat #t1{
+            font-size: 40px;
+            font-family: gotham rounded bold;
+            color: white;
+            margin-top: 50px;
+            margin-left: 175px;
+        }
+        #empat #facebook{
+            margin-left: 610px;
+            margin-top: -80px;
+            width: 50px;
+            position: absolute;
+        }
+        #empat #t2{
+            font-size: 40px;
+            font-family: gotham rounded bold;
+            color: white;
+            margin-top: -78px;
+            margin-left: 690px;
+        }
+        #empat #instagram{
+            margin-left: 1150px;
+            margin-top: -80px;
+            width: 50px;
+            position: absolute;
+        }
+        #empat #t3{
+            font-size: 40px;
+            font-family: gotham rounded bold;
+            color: white;
+            margin-top: -78px;
+            margin-left: 1220px;
+        }
+        #empat div{
+            margin-top: 75px;
+        }
+        #empat div p{
+            color: white;
+            font-size: 20px;
+            font-family: gotham rounded;
+            margin: 0px;
+        }
+        #lima h2{
+            color: #CACBC7;
+            padding: 0px;
+            font-family: gotham rounded bold;
+            margin: 15px;
+        }
