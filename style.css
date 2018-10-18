@@ -3,6 +3,7 @@ html {
     padding: 0;
     font-family: 'gotham';
     color: #707070;
+    scroll-behavior: smooth;
 
 }
 
@@ -60,6 +61,7 @@ p {
     background-size: cover;
     background-blend-mode: darken;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .center-top {
@@ -104,7 +106,7 @@ p {
 
 }
 
- .red-card {
+.red-card {
     border: 5px solid #D74B4B;
     background-color: #e0d1d1;
 }
@@ -114,7 +116,8 @@ p {
     background-color: #e0dbe5;
 }
 
-#divisi .card:hover, #event .card:hover {
+#divisi .card:hover,
+#event .card:hover {
     border: solid 2px #475F77;
     box-shadow: 2px 2px 2px #475F77;
     cursor: pointer;
@@ -151,7 +154,7 @@ p {
 
 }
 
-.blue{
+.blue {
     background-color: #475F77;
 }
 
@@ -186,6 +189,8 @@ p {
     background-color: #D74B4B;
     text-shadow: 0px 0px 0px;
     border: 1px #D74B4B;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
 }
 
 .center {
@@ -194,8 +199,9 @@ p {
 
 .isi {
     padding: 10px 12px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
+
 .circle-frame {
     box-sizing: border-box;
     width: 100px;
@@ -208,35 +214,65 @@ p {
     margin: 0px auto 10px;
 }
 
-.circle-frame img{
+.circle-frame img {
     margin: auto auto;
 }
 
 /*  COLUMN SETUP  */
 .col {
-	display: block;
-	float:left;
-	margin: 2.5% 0 2.5% 5%;
+    display: block;
+    float: left;
+    margin: 2.5% 0 2.5% 5%;
 }
+
 .col:first-child {
     margin-left: 0;
 }
 
 /*  GRID OF THREE  */
-.span_3_of_3 { width: 100%; }
-.span_2_of_3 { width: 65%; }
-.span_1_of_3 { width: 30%; }
-.span_1_of_2 { width: 47.5%;}
-.span_1_of_1 {width: 100%;}
+.span_3_of_3 {
+    width: 100%;
+}
+
+.span_2_of_3 {
+    width: 65%;
+}
+
+.span_1_of_3 {
+    width: 30%;
+}
+
+.span_1_of_2 {
+    width: 47.5%;
+}
+
+.span_1_of_1 {
+    width: 100%;
+}
 
 /*  GO FULL WIDTH BELOW 720 PIXELS */
-@media only screen and (max-width: 720px) {
-	#event .card .span_1_of_2 { width: 47.5%; }
+@media only screen and (max-width: 1080px) {
+    #event .card .span_1_of_2 {
+        width: 47.5%;
+        font-size: 5px;
+    }
+
+    #event h4 {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 720px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3, .span_1_of_2 { width: 100%; }
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+
+    .span_3_of_3,
+    .span_2_of_3,
+    .span_1_of_3,
+    .span_1_of_2 {
+        width: 100%;
+    }
 }
 
 
@@ -327,8 +363,10 @@ p {
     height: 230px;
 
 }
+
 #event .card .images {
-    width: 47.5%;;
+    width: 47.5%;
+    ;
     height: 100%;
     box-sizing: border-box;
     overflow: hidden;
@@ -341,10 +379,9 @@ p {
 }
 
 #event .title {
-    color:#707070;
+    color: #707070;
 }
 
 #event p {
     font-size: 14px;
 }
-
