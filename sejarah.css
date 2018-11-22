@@ -9,8 +9,8 @@ Primary style
     color: #fff;
     position: relative;
     padding: 0px 10%;
-    z-index: 1;
     background-color: #475F77;
+
 }
 .form-control input {
     box-sizing: border-box;
@@ -77,6 +77,7 @@ Primary style
 .navbar-panel ul li {
     list-style: none;
     display: inherit;
+    margin: 0 0 0 20px
 }
 
 
@@ -96,7 +97,7 @@ Primary style
     color: #fff;
 }
 
-.navbar-brand img {
+.navbar-brand, .navbar-brand img {
     width: 100px;
 
 }
