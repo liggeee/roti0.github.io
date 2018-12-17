@@ -85,6 +85,7 @@ p {
     width: 100%;
     position: relative;
     min-height: 300px;
+    overflow: hidden;
 
 }
 
@@ -136,7 +137,6 @@ p {
     height: 300px;
     box-shadow: 1px 1px 10px #475F77;
     border-radius: 50px;
-    padding: 10px 12px;
     overflow: hidden;
 
 }
@@ -272,8 +272,10 @@ p {
     border-radius: 50px;
     padding: 12px;
     border: 5px solid #D74B4B;
-    margin: 0px auto 10px;
+    margin: 0px auto ;
 }
+
+
 
 .circle-frame img {
     margin: auto auto;
@@ -320,6 +322,9 @@ p {
 
     #event h4 {
         font-size: 20px;
+    }
+    #kepengurusan li{
+    line-height: 0;
     }
 }
 
@@ -408,6 +413,57 @@ p {
     animation: 30s slider infinite;
 }
 
+@keyframes slider2 {
+    0%,10%,100% {
+        left: 0;
+    }
+    20% {
+        left: -100%;
+    }
+    30% {
+        left: -200%;
+    }
+    40% {
+        left: -300%;
+    }
+    50%{
+        left: -400%;
+    }
+    60%{
+        left: -500%;
+    }
+    70%{
+        left: -600%;
+    }
+    80%{
+        left: -700%;
+    }
+    85%{
+        left: -800%;
+    }
+    90%{
+        left: -900%;
+    }
+}
+
+#slider2 {
+    overflow: hidden;
+}
+
+#slider2 figure .panel{
+    width: 10%;
+    float: left;
+}
+
+#slider2 figure {
+    position: relative;
+    width: 1000%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    animation: 45s slider2 infinite;
+}
+
 #sejarah .card {
     background-color: #fff;
 }
@@ -418,6 +474,20 @@ p {
     margin: 15%;
 }
 
+#kepengurusan img{
+    box-sizing: border-box;
+    width: 250px;
+    height:250px;
+    border-radius: 50px;
+
+}
+#kepengurusan .card{
+    height: auto;
+}
+
+#kepengurusan li{
+    line-height: 3.3;
+}
 
 #event .card {
     padding: 0;
